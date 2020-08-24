@@ -61,7 +61,7 @@ public class GitRetrieval implements Runnable{
 
       GHBranch ghBranch = repo.getBranch(gitBranch);
 
-      LOGGER.info("Got GHBrnach : {}", ghBranch);
+      LOGGER.info("Got GHBranch : {}", ghBranch);
 
       GHContent fileContents = repo.getFileContent(gitPath);
 
